@@ -1,0 +1,29 @@
+h1 {
+    font-size: 48px;
+    color: darkred;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p{
+    font-size: 22px;
+}
+
+div {
+    background-color: aquamarine;
+    padding: 30px;
+    border: 5px solid green;
+    border-radius: 10px;
+}
+.post-1 {
+    margin-bottom: 50px;
+}
+
+
+img {
+    width: 700px;
+    margin-top: 30px;
+}
