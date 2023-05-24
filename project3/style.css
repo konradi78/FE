@@ -4,17 +4,77 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h1:hover {
+    color: red;
+}
+
 main {
-    background-color: bisque;
+    width: 90%;
+    margin: auto;
     display: flex;  
     flex-wrap: wrap;
-    height: 100vh;
-
+    padding: 30px;
+    background-color: rgb(241, 112, 112);
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(8, 0, 0) ;
 }
 
 .item {
-    width: 200px;
-    height: 200px; 
-    background-color: aqua; 
+    width: calc(50% - 20px);
+    height: 250px; 
+    /* aspect-ratio: 16/9;*/ 
+    background-color: rgb(250, 249, 249); 
     margin: 10px;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+    border-radius: 20px;
 }
+
+.item:hover {
+    transform: scale(1.2) rotate(1deg);
+}
+
+.item-1 {
+    background-image: url(./images/cooler.jpg);
+}
+
+.item-2 {
+    background-image: url(./images/case.jpg);
+}
+
+.item-3 {
+    background-image: url(./images/cpu.jpg);
+}
+
+.item-4 {
+    background-image: url(./images/gpu.jpg);
+}
+
+.item-5 {
+    background-image: url(./images/mb.jpg);
+}
+
+.item-6 {
+    background-image: url(./images/nvme.jpg);
+}
+
+.item-7 {
+    background-image: url(./images/psu.jpg);
+}
+
+.item-8 {
+    background-image: url(./images/ram.jpg);
+}
+
