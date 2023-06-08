@@ -58,45 +58,69 @@
 //                   console.log (notebooks[i].model )
 //      }
 
-const users = [
-    {
-        username: "Alex",
-        email: "alex@mail.ru",
-        login: "alex777",
-        age: 15
-    },
-    {
-        username: "John",
-        email: "john@mail.ru",
-        login: "john888",
-        age: 25
-    },
-    {
-        username: "Elena",
-        email: "elena@mail.ru",
-        login: "elena999",
-        age: 30
-    },
-]
+// const users = [
+//     {
+//         username: "Alex",
+//         email: "alex@mail.ru",
+//         login: "alex777",
+//         age: 15
+//     },
+//     {
+//         username: "John",
+//         email: "john@mail.ru",
+//         login: "john888",
+//         age: 25
+//     },
+//     {
+//         username: "Elena",
+//         email: "elena@mail.ru",
+//         login: "elena999",
+//         age: 30
+//     },
+// ]
 
-//  for (let i = 0 ; i < users.length; i++) { 
-//                    console.log (users[i].username + " , ваш Email: " + users[i].email + " , а ваш логин - " + users[i].login)
-//       }
+// //  for (let i = 0 ; i < users.length; i++) { 
+// //                    console.log (users[i].username + " , ваш Email: " + users[i].email + " , а ваш логин - " + users[i].login)
+// //       }
 
+// // for (let i = 0 ; i < users.length; i++) {
+// //     if (users[i].age > 18) {
+// //     console.log(`Ваш Email - ${users[i].email}, а ваш логин - ${users[i].login}`)
+// //     }     
+// // }
+// const validatedUsers = []
 // for (let i = 0 ; i < users.length; i++) {
 //     if (users[i].age > 18) {
-//     console.log(`Ваш Email - ${users[i].email}, а ваш логин - ${users[i].login}`)
+//         validatedUsers.push({login: users[i].login, age : users[i].age})
 //     }     
 // }
-const validatedUsers = []
-for (let i = 0 ; i < users.length; i++) {
-    if (users[i].age > 18) {
-        validatedUsers.push({login: users[i].login, age : users[i].age})
-    }     
-}
-console.log(validatedUsers)
+// console.log(validatedUsers)
 
 
+const products = [
+    {
+        name: "Acer",
+        category: "laptop"
+    },
+    {
+        name: "Samsung",
+        category: "TV"
+    },
+    {
+        name: "Iphone 14",
+        category: "phont"
 
+    },
+    {
+        name: "Panasonic",
+        category: "TV"
+    }
+
+]
+for (let i = 0; i < products.length; i++) {
+    if (products[i].category == "TV") {
+      console.log(products[i].name)
+    }
+  }
 
 
