@@ -1,0 +1,9 @@
+.users_container {
+    width: 20%;
+    background-color: rgb(240, 134, 12);
+    padding: 30px;
+    margin: 10px;
+}
+p {
+    font-size: 20px;
+}
